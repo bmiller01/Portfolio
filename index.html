@@ -1,10 +1,73 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html >
+<html lang="en">
+
 <head>
-    <title>My Portfolio</title>
+<meta charset="utf-8">
+<title>Home</title>
+
+<style>
+html {
+  font-size: 100%;
+}
+body {
+  font-family: Georgia, serif;
+  line-height: 1.75;
+  margin: 0;
+}
+header{
+  background-image: url("home_background1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+nav {
+  display: flex;
+  text-align: left;
+  height: 0.75in;
+  padding-right: 10%;
+  align-items: center;
+  gap: 50px;
+  justify-content: center;
+}
+
+a {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  color: navy;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+h1 { 
+  width: 60%;
+  color: navy;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.hero-text {
+  width: 45%;
+  margin-left: 15%;
+  margin-top: 40px;
+  padding-top: 80px;
+}
+</style>
 </head>
+
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <p>This is my website!</p>
+  <nav>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="resume.html">Resume</a>
+  </nav>
+  <header>
+     <div class="hero-text">
+        <h1>Welcome to My Portfolio</h1>
+        <p>I'm going to write something here.</p>
+     </div>
+  </header>
+
 </body>
 </html>
